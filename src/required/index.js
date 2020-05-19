@@ -1,1 +1,1 @@
-module.exports = require('./required');
+module.exports = require('./requiredMinesweeper');
