@@ -1,3 +1,3 @@
 const App = require('./src');
 
-new App.Demo('howdy ho');
+new App.Demo(["XOO", "OOO", "XXO"]);
