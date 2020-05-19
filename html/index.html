@@ -3,7 +3,16 @@
         <title>HTML test page</title>
     </head>
     <body>
-        <p>"Hidey ho!" says the poo.</p>
-        <p>"You want a piece of me?" he says. "Maybe half for you, half for your wife?"</p>
+    <script type = "text/javascript">
+        (function () {
+            const filename = `index_bundle.js?cb=${Math.floor(Math.random() * 10000000 )}`,
+                scr = document.createElement('script');
+
+            scr.setAttribute('src', filename);
+            scr.setAttribute('type', 'text/javascript');
+
+            document.getElementsByTagName('head')[0].appendChild(scr);
+        })();
+    </script>
     </body>
 </html>
